@@ -7,7 +7,7 @@ import { FaDownload } from "react-icons/fa";
 const tabs = [
   {
     id: "Fiche Technique",
-    label: "Fiche Technique",
+    label: "Features",
   },
   {
     id: "Description",
@@ -87,7 +87,7 @@ const ProductDetails = () => {
                 key={tab.id}
                 className={activeTab === tab.id ? "" : "hidden"}
               >
-                {tab.id === "Fiche Technique" && productInfo.ficheTech ? (
+                {tab.id === "Features" && productInfo.ficheTech ? (
                   <div>
                     <table className="table-auto w-full">
                       <tbody>

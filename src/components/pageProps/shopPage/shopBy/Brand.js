@@ -14,21 +14,18 @@ const Brand = () => {
   const brands = [
     {
       _id: 900,
-      title: "Pantum",
+      title: "H&M",
     },
     {
       _id: 901,
-      title: "Hp",
+      title: "Apple",
     },
     {
       _id: 902,
-      title: "Epson",
+      title: "Skybag",
     },
 
-    {
-      _id: 903,
-      title: "Ricoh",
-    },
+    
   ];
 
   const handleToggleBrand = (brand) => {
